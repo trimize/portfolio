@@ -1,0 +1,49 @@
+#menu
+{
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows of equal height */
+}
+
+.box
+{
+    color: white;
+    display: none;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-family: 'Roboto';
+    height: 100%;
+    width: 100%;
+}
+
+.img
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 27vh;
+    width: 27vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+#schoolImg
+{
+    background-image: url("../Assets/42_Logo.svg");
+}
+
+#hardwearImg
+{
+    background-image: url("../Assets/hardwear.PNG");
+}
+
+#uniImg
+{
+    background-image: url("../Assets/UniversiteParisCite_logo_horizontal_blanc_1000px.png");
+}
